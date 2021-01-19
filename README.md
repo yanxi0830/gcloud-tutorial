@@ -226,6 +226,16 @@ pip install --upgrade jax jaxlib==0.1.59+cuda101 -f https://storage.googleapis.c
 
 ### Verification
 
+You can use the scripts in this repo to check if PyTorch/TensorFlow/JAX is sucessfully installed and can be used with GPU on the server.
+
+```
+git clone <TODO>
+cd gcloud-tutorial
+python check_pytorch.py
+python check_tf.py
+python check_jax.py
+```
+
 ##### GPU
 To see a list of attached GPUs and their usage statistics, run
 ```
@@ -237,7 +247,7 @@ watch nvidia-smi
 ```
 
 ##### PyTorch
-To verify that PyTorch and CUDA is installed correctly, run `python check_pytorch.py`
+To verify that PyTorch is installed correctly, run `python check_pytorch.py`
 
 ##### TensorFlow
 To verify that TensorFlow is installed correctly, run `python check_tf.py`
