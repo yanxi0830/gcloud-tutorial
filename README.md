@@ -87,7 +87,7 @@ After that, this should bring you to the [GCP Console](https://console.cloud.goo
 
 > You should have created and logged in your GCP account registered with your personal gmail account by now.
 
-1. We will release the link to Google Cloud Education Grants page you will need to access in order to request a $50 Google Cloud Platform coupon on Piazza. You will be asked to provide your school email adssdress and name. An email will be sent to you to confirm these details before a coupon is sent to you. **Although you will use your Stanford email to receive the credits, you should NOT apply the coupon to your Stanford email or Stanford account on GCP.** Instead, **apply the coupon to your GCP account registered with Personal GMail.**
+1. We will release the link to Google Cloud Education Grants page you will need to access in order to request a $50 Google Cloud Platform coupon on Piazza. You will be asked to provide your school email address and name. An email will be sent to you to confirm these details before a coupon is sent to you. **Although you will use your Stanford email to receive the credits, you should NOT apply the coupon to your Stanford email or Stanford account on GCP.** Instead, **apply the coupon to your GCP account registered with Personal GMail.**
 
 ![credit1](figs/4-credit/credit1.png)
 
