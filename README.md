@@ -118,7 +118,7 @@ Google Cloud does not support combining the $300 Free Tier credits with the $50 
 
 You should have **one** group member set up GCP for your project, and add the other group members as project collaborators.
 
-Each group member may be able to claim $50. A tip way to avoid having too many Billing accounts is to have other the group members **forward the email containing Coupon code to the member responsible for setting up GCP project.** This will allow CS329S credit be accumulated into one single account.
+Each group member may be able to claim $50. A tip to avoid having many Billing accounts is to have the other group members **forward the email containing Coupon code to the member responsible for setting up GCP project.** This will allow CS329S credit be accumulated into one single account.
 
 ## Request GPU Quota
 
