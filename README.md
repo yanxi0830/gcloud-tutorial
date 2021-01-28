@@ -35,7 +35,7 @@ For your class project, we recommend setting up an instance on GCP (Google Cloud
 
 ### Sign Up GCP for the First Time
 
-You should receive $300 credits from Google when you first **sign up with Personal GMail** and also **UPGRADE it into a full account.**
+You should receive $300 credits from Google when you first **sign up with Personal GMail** and also **UPGRADE it into a full account.** Since Stanford accounts do not have GCP project privileges, you should use a personal Google account to manage your Cloud instance(s) for this course.
 
 1. Create Google Cloud account by going to the [Google Cloud homepage](https://cloud.google.com/). Click on the blue **Get Started for free** button. Sign into your Gmail account.
 
@@ -148,7 +148,7 @@ Wait until GCP send you a second email to confirm your quota request. (It could 
 
 ![gpu5](figs/5-gpu/gpu5.png)
 
-If you need more help, check out the official documentation for [Requesting Additional Quota](https://cloud.google.com/compute/quotas#requesting_additional_quota)
+If you need more help, check out the official documentation for [Requesting Additional Quota](https://cloud.google.com/compute/quotas#requesting_additional_quota), or escalate any issues to us via a private Piazza post (this has been an issue for students in other courses in the past, and we'd like to make sure that this isn't a major blocker for you!).
 
 ## Set Up Google Cloud VM Image
 
@@ -179,7 +179,7 @@ You should see a configuration sheet with the title "New Deep Learning VM deploy
 
 > Alternatively, you can choose None if you are not in need of GPU resources yet (you can always add on later) to save cost, and in this case GPU drivers and CUDA will not be installed.
 
-4. In `Frameworks` field, change `TensorFlow Enterpris 2.1 (CUDA 10.1)` to `PyTorch 1.4 + fast.ai (CUDA 10.0)`. If you wish to use Tensorflow, our setup script will help you set it up later in this tutorial.
+4. In `Frameworks` field, change `TensorFlow Enterprise 2.1 (CUDA 10.1)` to `PyTorch 1.4 + fast.ai (CUDA 10.0)`. If you wish to use Tensorflow, our setup script will help you set it up later in this tutorial.
 
 5. Check the box `Install NVIDIA GPU driver automatically on first startup?`.
 
@@ -275,11 +275,13 @@ gcloud compute scp /local/path/file <user>@<instance-name>:/home/shared/
 
 ## STOPPING YOUR INSTANCE
 
-Please remember to **STOP YOUR INSTANCE** when you are done (by clicking on the stop button at the top of the page). You can restart your instance and the downloaded software will still be available.
+Please remember to **STOP YOUR INSTANCE** when you are done (by clicking on the stop button at the top of the page). If you fail to do so, and leave your instance running for additional days (or weeks) beyond that which you need, you run the risk of exhausting your CS329S credits and incurring personal billing charges. In order to avoid this, please be diligent about stopping your instance(s) when you are done using them.
+
+Restarting your instance does not reset the machine's state: you can restart your instance and any downloaded software will still be available to you.
 
 ![stop](figs/7-stop/stop1.png)
 
-You will be charged per hour when your instance is running. This includes code development time. We encourage you to read up on Google Cloud, regularly keep track of your credits.
+You will be charged per hour when your instance is running. This includes code development time. We encourage you regularly check your [Cloud Billing](https://cloud.google.com/billing/docs) so that you know how many credits you have left!
 
 ## References
 
